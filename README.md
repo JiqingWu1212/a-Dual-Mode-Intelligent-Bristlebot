@@ -8,11 +8,10 @@ This repository contains the core firmware for an Intelligent Bristlebot, develo
 The robot operates utilizing a Shared Control Architecture (SCA). It seamlessly integrates two modes: a manual remote-control mode via Bluetooth Low Energy (BLE) GATT server, and an autonomous navigation mode utilizing an I2C-based TCS34725 colour sensor. Unique to this design, propulsion is achieved through a custom 5-layer tape-wrapped ERM motor (propeller), while steering is dynamically controlled via a vertically mounted servo arm.
 
 ## 3. Context
-*(Note: Replace the links below with the actual file names of images/videos uploaded to this repository)*
 
-*   **Figure 1:** [System Architecture Diagram](./images/architecture.png)
-*   **Figure 2:** [Completed Bristlebot Prototype](./images/prototype.jpg)
-*   **Video Demo:** [Dual-Mode Switching in Action](./videos/demo.mp4)
+*   **Figure 1:** [System Architecture Diagram]()
+*   **Figure 2:** [Completed Bristlebot Prototype]()
+
 
 The firmware handles real-time priority switching. For instance, manual BLE inputs drive the robot under normal conditions, but if the sensor detects a predefined environmental boundary (e.g., a green or red line), the autonomous logic pre-empts the manual control to execute evasive manoeuvres.
 
