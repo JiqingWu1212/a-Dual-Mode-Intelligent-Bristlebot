@@ -1,4 +1,6 @@
-# Intelligent Bristlebot: Dual-Mode Control Firmware using ESP-IDF
+# a-Dual-Mode-Intelligent-Bristlebot
+
+## 1. Intelligent Bristlebot: Dual-Mode Control Firmware using ESP-IDF
 
 ## 2. Introduction
 This repository contains the core firmware for an Intelligent Bristlebot, developed as part of a 3rd Year Individual Project (EEEN30330) at The University of Manchester. The system is built on the Espressif ESP32 microcontroller using the native ESP-IDF framework, allowing for robust, low-level hardware control and FreeRTOS task management.
