@@ -9,8 +9,8 @@ The robot operates utilizing a Shared Control Architecture (SCA). It seamlessly 
 
 ## 3. Context
 
-*   **Figure 1:** [System Architecture Diagram]()
-*   **Figure 2:** [Completed Bristlebot Prototype]()
+*   **Figure 1:** [System Architecture Diagram](image/Figure 1.png)
+*   **Figure 2:** [Completed Bristlebot Prototype](image/Figure 2.png)
 
 
 The firmware handles real-time priority switching. For instance, manual BLE inputs drive the robot under normal conditions, but if the sensor detects a predefined environmental boundary (e.g., a green or red line), the autonomous logic pre-empts the manual control to execute evasive manoeuvres.
